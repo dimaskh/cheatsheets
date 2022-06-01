@@ -5,6 +5,7 @@
 ## Pre-requisites
 
 - This cheatsheet specifically relies upon my own [configuration](https://github.com/dimaskh/dotfiles/blob/master/.tmux.conf).
+- Some of the commands have versions based on the [aliases](https://github.com/dimaskh/dotfiles/blob/master/.aliases) that I use.
 - I use <C-a> as a prefix.
 
 **Abbreviations**
@@ -18,10 +19,12 @@
 
 Start new unnamed session:
 
+    t
     tmux
 
 Start new named session:
 
+    tns
     tmux new -s {name}
 
 Attach to session:
@@ -30,6 +33,7 @@ Attach to session:
 
 Attach to named session:
 
+    ta {name}
     tmux a -t {name}
 
 List sessions:
