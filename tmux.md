@@ -115,3 +115,13 @@ Show tmuxinator's version:
     tx version
 
 ## Shortcuts
+
+The tmux shortcuts are intended to be used with prefix (C-a)
+
+### General
+
+| Key | Description |
+| --- | ----------- |
+| `?` | Shows a list of all commands (`q` closes the list) |
+| `:` | Enter a tmux command |
+ 
