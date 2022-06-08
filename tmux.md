@@ -15,7 +15,7 @@
 | C-x | ctrl+x      |
 | M-x | alt+x       |
 
-## Commands
+## Tmux commands
 
 Start new unnamed session:
 
@@ -49,5 +49,69 @@ Kill all the tmux sessions:
 
     tmux ls | grep : | cut -d. -f1 | awk '{print substr($1, 0, length($1)-1)}' | xargs kill
 
+## Tmuxinator commands
+
+Create or edit a project with the configuration file located in `~/.config/tmuxinator` directory:
+
+    tx n {project}
+    tx new {project}
+
+Create or edit a local project with the configuration file stored in the current working directory:
+
+    tx n --local {project}
+    tx new --local {project}
+
+Edit a configuration file:
+
+    tx o {project}
+    tx open {project}
+
+Start a project, e.g. fire up tmux with all the tabs and panes configured:
+
+    tx s {project}
+    tx start {project}
+
+Stop a project:
+
+    tx stop {project}
+
+List all the projects configured:
+
+    tx l
+    tx ls
+    tx list
+
+Remove a project:
+
+    tx rm {project}
+    tx delete {project}
+
+Copy an existing project:
+
+    tx c {existing} {new}
+    tx cp {existing} {new}
+    tx copy {existing} {new}
+
+Remove all tmuxinator configs, aliases and scripts:
+
+    tx i
+    tx implode
+
+Examine the environment and identify problems with the configuration:
+
+    tx doctor
+
+Show tmuxinator help:
+
+    tx h
+    tx help
+
+Show the shell commands that get executed for a project:
+
+    tx debug {project}
+
+Show tmuxinator's version:
+
+    tx version
 
 ## Shortcuts
