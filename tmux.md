@@ -128,7 +128,7 @@ The tmux shortcuts are intended to be used with prefix (C-a)
 ### Windows
 
 | Key | Description |
-| --- | ----------- |
+| :-: | ----------- |
 | `c` | Create a new window |
 | `,` | Rename current window |
 | `n` | Switch to next window |
@@ -149,7 +149,7 @@ The tmux shortcuts are intended to be used with prefix (C-a)
 | `{` | Move the current pane left |
 | `}` | Move the current pane right |
 | `x` | Kill the current pane |
-| <Space> | Toggle through different pane layouts |
+| `<Space>` | Toggle through different pane layouts |
 
 ### Sessions
 
