@@ -51,11 +51,13 @@ The tmux shortcuts are intended to be used with prefix (C-a)
 | `}` | Move the current pane right |
 | `x` | Kill the current pane |
 | `<Space>` | Toggle through different pane layouts |
+| `!` | Break the pane out of the window |
 
 ### Sessions
 
 | Key | Description |
 | :-: | ----------- |
+| `$` | Rename the current session |
 | `d` | Detach from session |
 
 ## Tmux commands
