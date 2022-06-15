@@ -124,4 +124,27 @@ The tmux shortcuts are intended to be used with prefix (C-a)
 | --- | ----------- |
 | `?` | Shows a list of all commands (`q` closes the list) |
 | `:` | Enter a tmux command |
- 
+
+### Windows
+
+| Key | Description |
+| --- | ----------- |
+| `c` | Create a new window |
+| `,` | Rename current window |
+| `p` | Switch to previous window |
+| `n` | Switch to next window |
+| `w` | List windows |
+
+### Panes
+
+| Key | Description |
+| --- | ----------- |
+| `%` | Split window vertically |
+| `"` | Split window horizontally |
+| Arrow keys, `h, j, k, l` | Navigate panes |
+
+### Sessions
+
+| Key | Description |
+| --- | ----------- |
+| `d` | Detach from session |
