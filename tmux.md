@@ -15,6 +15,49 @@
 | C-x | ctrl+x      |
 | M-x | alt+x       |
 
+## Shortcuts
+
+The tmux shortcuts are intended to be used with prefix (C-a)
+
+### General
+
+| Key | Description |
+| :-: | ----------- |
+| `?` | Shows a list of all commands (`q` closes the list) |
+| `:` | Enter a tmux command |
+
+### Windows
+
+| Key | Description |
+| :-: | ----------- |
+| `c` | Create a new window |
+| `,` | Rename current window |
+| `n` | Switch to next window |
+| `w` | List windows |
+| `{0..9}` | Go to the window {number} |
+| `&` | Kill the current window |
+| `f` | Find a window |
+
+### Panes
+
+| Key | Description |
+| :-: | ----------- |
+| `|` | Split window vertically |
+| `-` | Split window horizontally |
+| Arrow keys, `h, j, k, l` | Navigate panes |
+| `q` | Show pane numbers |
+| `o` | Switch to the next pane |
+| `{` | Move the current pane left |
+| `}` | Move the current pane right |
+| `x` | Kill the current pane |
+| `<Space>` | Toggle through different pane layouts |
+
+### Sessions
+
+| Key | Description |
+| :-: | ----------- |
+| `d` | Detach from session |
+
 ## Tmux commands
 
 Start new unnamed session:
@@ -113,46 +156,3 @@ Show the shell commands that get executed for a project:
 Show tmuxinator's version:
 
     tx version
-
-## Shortcuts
-
-The tmux shortcuts are intended to be used with prefix (C-a)
-
-### General
-
-| Key | Description |
-| :-: | ----------- |
-| `?` | Shows a list of all commands (`q` closes the list) |
-| `:` | Enter a tmux command |
-
-### Windows
-
-| Key | Description |
-| :-: | ----------- |
-| `c` | Create a new window |
-| `,` | Rename current window |
-| `n` | Switch to next window |
-| `w` | List windows |
-| `{0..9}` | Go to the window {number} |
-| `&` | Kill the current window |
-| `f` | Find a window |
-
-### Panes
-
-| Key | Description |
-| :-: | ----------- |
-| `|` | Split window vertically |
-| `-` | Split window horizontally |
-| Arrow keys, `h, j, k, l` | Navigate panes |
-| `q` | Show pane numbers |
-| `o` | Switch to the next pane |
-| `{` | Move the current pane left |
-| `}` | Move the current pane right |
-| `x` | Kill the current pane |
-| `<Space>` | Toggle through different pane layouts |
-
-### Sessions
-
-| Key | Description |
-| :-: | ----------- |
-| `d` | Detach from session |
