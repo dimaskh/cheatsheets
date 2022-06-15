@@ -131,17 +131,25 @@ The tmux shortcuts are intended to be used with prefix (C-a)
 | --- | ----------- |
 | `c` | Create a new window |
 | `,` | Rename current window |
-| `p` | Switch to previous window |
 | `n` | Switch to next window |
 | `w` | List windows |
+| `{0..9}` | Go to the window {number} |
+| `&` | Kill the current window |
+| `f` | Find a window |
 
 ### Panes
 
 | Key | Description |
 | --- | ----------- |
-| `%` | Split window vertically |
-| `"` | Split window horizontally |
+| `|` | Split window vertically |
+| `-` | Split window horizontally |
 | Arrow keys, `h, j, k, l` | Navigate panes |
+| `q` | Show pane numbers |
+| `o` | Switch to the next pane |
+| `{` | Move the current pane left |
+| `}` | Move the current pane right |
+| `x` | Kill the current pane |
+| <Space> | Toggle through different pane layouts |
 
 ### Sessions
 
